@@ -1,1 +1,75 @@
+tracks:
+  - name: "Academic Research"
+    id: "academic-research"
+    description: "Research methodology, literature review, and academic writing"
+    color: "#4CAF50"
+    modules:
+      - title: "Research Design Fundamentals"
+        description: "Introduction to research methodology and design principles"
+        duration: "4 weeks"
+        level: "Beginner"
+        
+      - title: "Literature Review Techniques"
+        description: "Systematic approaches to literature review and citation"
+        duration: "3 weeks"
+        level: "Intermediate"
 
+  - name: "Basic Programming"
+    id: "basic-programming"
+    description: "Programming fundamentals for data analysis"
+    color: "#2196F3"
+    modules:
+      - title: "Python for Beginners"
+        description: "Introduction to Python programming"
+        duration: "6 weeks"
+        level: "Beginner"
+        
+      - title: "R Programming Basics"
+        description: "Statistical programming with R"
+        duration: "5 weeks"
+        level: "Beginner"
+
+  - name: "Data Management"
+    id: "data-management"
+    description: "Data collection, cleaning, and organization"
+    color: "#FF9800"
+    modules:
+      - title: "Data Collection Methods"
+        description: "Techniques for gathering and organizing data"
+        duration: "4 weeks"
+        level: "Intermediate"
+        
+      - title: "Database Fundamentals"
+        description: "Introduction to SQL and database management"
+        duration: "5 weeks"
+        level: "Intermediate"
+
+  - name: "Data Visualization"
+    id: "data-visualization"
+    description: "Creating effective charts, graphs, and dashboards"
+    color: "#9C27B0"
+    modules:
+      - title: "Visualization Principles"
+        description: "Design principles for effective data visualization"
+        duration: "3 weeks"
+        level: "Beginner"
+        
+      - title: "Advanced Plotting Techniques"
+        description: "Complex visualizations using Python and R"
+        duration: "4 weeks"
+        level: "Advanced"
+
+  - name: "Statistical Analysis"
+    id: "statistical-analysis"
+    description: "Statistical methods and hypothesis testing"
+    color: "#F44336"
+    modules:
+      - title: "Descriptive Statistics"
+        description: "Understanding and applying descriptive statistics"
+        duration: "4 weeks"
+        level: "Beginner"
+        
+      - title: "Inferential Statistics"
+        description: "Hypothesis testing and confidence intervals"
+        duration: "6 weeks"
+        level: "Intermediate"
