@@ -8,6 +8,7 @@ tracks:
         description: "Introduction to research methodology and design principles"
         duration: "4 weeks"
         level: "Beginner"
+        url: "_modules/academic-research/"
         
       - title: "Literature Review Techniques"
         description: "Systematic approaches to literature review and citation"
