@@ -5,15 +5,28 @@ tracks:
     color: "#4CAF50"
     modules:
       - title: "Research Design Fundamentals"
+        slug: "research-design-fundamentals"
         description: "Introduction to research methodology and design principles"
         duration: "4 weeks"
         level: "Beginner"
-        url: "_modules/academic-research/"
+        url: "/modules/academic-research/research-design-fundamentals/"
+        external_url: "https://coursera.org/learn/research-design"
+        materials:
+          - title: "Research Methods Handbook"
+            url: "https://example.com/handbook.pdf"
+          - title: "Video Lectures"
+            url: "https://youtube.com/playlist?list=example"
         
       - title: "Literature Review Techniques"
+        slug: "literature-review-techniques"
         description: "Systematic approaches to literature review and citation"
         duration: "3 weeks"
         level: "Intermediate"
+        url: "/modules/academic-research/literature-review-techniques/"
+        external_url: "https://edx.org/course/literature-review"
+        materials:
+          - title: "Citation Guidelines"
+            url: "https://example.com/citations.pdf"
 
   - name: "Basic Programming"
     id: "basic-programming"
@@ -21,14 +34,30 @@ tracks:
     color: "#2196F3"
     modules:
       - title: "Python for Beginners"
+        slug: "python-for-beginners"
         description: "Introduction to Python programming"
         duration: "6 weeks"
         level: "Beginner"
+        url: "/modules/basic-programming/python-for-beginners/"
+        external_url: "https://codecademy.com/learn/learn-python-3"
+        github_repo: "https://github.com/asmuie-analytics/python-basics"
+        materials:
+          - title: "Python Cheat Sheet"
+            url: "https://example.com/python-cheatsheet.pdf"
+          - title: "Practice Exercises"
+            url: "https://repl.it/@asmuie/python-exercises"
         
       - title: "R Programming Basics"
+        slug: "r-programming-basics"
         description: "Statistical programming with R"
         duration: "5 weeks"
         level: "Beginner"
+        url: "/modules/basic-programming/r-programming-basics/"
+        external_url: "https://datacamp.com/courses/free-introduction-to-r"
+        github_repo: "https://github.com/asmuie-analytics/r-basics"
+        materials:
+          - title: "R Reference Card"
+            url: "https://example.com/r-reference.pdf"
 
   - name: "Data Management"
     id: "data-management"
@@ -36,14 +65,27 @@ tracks:
     color: "#FF9800"
     modules:
       - title: "Data Collection Methods"
+        slug: "data-collection-methods"
         description: "Techniques for gathering and organizing data"
         duration: "4 weeks"
         level: "Intermediate"
+        url: "/modules/data-management/data-collection-methods/"
+        external_url: "https://coursera.org/learn/data-collection"
+        materials:
+          - title: "Survey Design Templates"
+            url: "https://example.com/survey-templates.zip"
         
       - title: "Database Fundamentals"
+        slug: "database-fundamentals"
         description: "Introduction to SQL and database management"
         duration: "5 weeks"
         level: "Intermediate"
+        url: "/modules/data-management/database-fundamentals/"
+        external_url: "https://sqlbolt.com/"
+        github_repo: "https://github.com/asmuie-analytics/sql-practice"
+        materials:
+          - title: "SQL Commands Reference"
+            url: "https://example.com/sql-reference.pdf"
 
   - name: "Data Visualization"
     id: "data-visualization"
@@ -51,14 +93,29 @@ tracks:
     color: "#9C27B0"
     modules:
       - title: "Visualization Principles"
+        slug: "visualization-principles"
         description: "Design principles for effective data visualization"
         duration: "3 weeks"
         level: "Beginner"
+        url: "/modules/data-visualization/visualization-principles/"
+        external_url: "https://observablehq.com/@d3/learn-d3"
+        materials:
+          - title: "Color Theory Guide"
+            url: "https://example.com/color-theory.pdf"
+          - title: "Chart Type Selection"
+            url: "https://example.com/chart-selection.html"
         
       - title: "Advanced Plotting Techniques"
+        slug: "advanced-plotting-techniques"
         description: "Complex visualizations using Python and R"
         duration: "4 weeks"
         level: "Advanced"
+        url: "/modules/data-visualization/advanced-plotting-techniques/"
+        external_url: "https://plotly.com/python/getting-started/"
+        github_repo: "https://github.com/asmuie-analytics/advanced-viz"
+        materials:
+          - title: "Plotly Examples"
+            url: "https://github.com/plotly/plotly.py"
 
   - name: "Statistical Analysis"
     id: "statistical-analysis"
@@ -66,11 +123,25 @@ tracks:
     color: "#F44336"
     modules:
       - title: "Descriptive Statistics"
+        slug: "descriptive-statistics"
         description: "Understanding and applying descriptive statistics"
         duration: "4 weeks"
         level: "Beginner"
+        url: "/modules/statistical-analysis/descriptive-statistics/"
+        external_url: "https://khanacademy.org/math/statistics-probability"
+        materials:
+          - title: "Statistics Formula Sheet"
+            url: "https://example.com/stats-formulas.pdf"
         
       - title: "Inferential Statistics"
+        slug: "inferential-statistics"
         description: "Hypothesis testing and confidence intervals"
         duration: "6 weeks"
         level: "Intermediate"
+        url: "/modules/statistical-analysis/inferential-statistics/"
+        external_url: "https://coursera.org/learn/inferential-statistics"
+        materials:
+          - title: "Statistical Tables"
+            url: "https://example.com/statistical-tables.pdf"
+          - title: "R Scripts for Analysis"
+            url: "https://github.com/asmuie-analytics/stats-r-scripts"
