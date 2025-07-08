@@ -1,1 +1,28 @@
+title: "Asmuie Analytics - Learning Modules"
+description: "Comprehensive learning modules for data analytics and research"
+baseurl: "/modules"
+url: "https://asmuie-analytics.github.io"
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  modules:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - index.md
+
+# Social links
+github_username: asmuie-analytics
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
