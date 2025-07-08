@@ -23,10 +23,9 @@ body {
 .site-header {
     background: #fff;
     border-bottom: 1px solid #e1e4e8;
-    margin-top: 2rem; /* Added margin */
-    /* position: sticky; */ /* Removed for margin to apply */
-    /* top: 0; */ /* Removed */
-    /* z-index: 100; */ /* Removed */
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .main-nav {
@@ -70,7 +69,7 @@ body {
 
 /* Page Header */
 .page-header {
-    margin: 0 0 2.5rem 0; /* Adjusted top margin for better flow */
+    margin: 2rem 0 2.5rem 0;
     padding: 1.5rem 0 1.5rem 0;
     border-bottom: 1px solid #e1e4e8;
     max-width: 800px;
@@ -416,65 +415,65 @@ body {
     .container {
         padding: 0 16px;
     }
-
+    
     .main-nav {
         flex-direction: column;
         gap: 1rem;
         padding: 1rem 0;
     }
-
+    
     .nav-links {
         gap: 1rem;
     }
-
+    
     .page-header {
         margin: 1.5rem 0 2rem 0;
         padding: 1rem 0;
     }
-
+    
     .page-header h1 {
         font-size: 1.75rem;
         margin-bottom: 0.75rem;
     }
-
+    
     .page-header p {
         font-size: 1rem;
     }
-
+    
     .track-card {
         padding: 1rem;
     }
-
+    
     .module-header {
         padding: 0.75rem;
     }
-
+    
     .module-actions {
         padding: 0.5rem 0.75rem;
         flex-direction: column;
     }
-
+    
     .module-btn {
         text-align: center;
         justify-content: center;
     }
-
+    
     .module-meta {
         flex-direction: column;
         gap: 0.25rem;
     }
-
+    
     .cta-section {
         padding: 1.5rem;
         margin: 2rem 0 1rem 0;
     }
-
+    
     .cta-section .btn {
         display: block;
         margin: 0.5rem auto;
         max-width: 200px;
     }
-
+    
     .footer-links a {
         margin: 0 0.5rem;
         display: inline-block;
@@ -486,15 +485,15 @@ body {
     .container {
         padding: 0 12px;
     }
-
+    
     .track-card h2 {
         font-size: 1.1rem;
     }
-
+    
     .module-header h3 {
         font-size: 0.95rem;
     }
-
+    
     .cta-section {
         padding: 1rem;
     }
