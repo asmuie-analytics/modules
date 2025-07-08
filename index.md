@@ -16,12 +16,35 @@ Welcome to our comprehensive collection of learning modules designed to build yo
         <div class="modules-list">
             {% for module in track.modules %}
                 <div class="module-item">
-                    <h3>{{ module.title }}</h3>
+                    <h3><a href="{{ module.url | default: ('/' | append: track.id | append: '/' | append: module.slug | append: '/') | relative_url }}">{{ module.title }}</a></h3>
                     <p>{{ module.description }}</p>
                     <div class="module-meta">
                         <span class="duration">{{ module.duration }}</span>
                         <span class="level level-{{ module.level | downcase }}">{{ module.level }}</span>
                     </div>
+                    
+                    <div class="module-links">
+                        <a href="{{ module.url | default: ('/' | append: track.id | append: '/' | append: module.slug | append: '/') | relative_url }}" class="module-link module-link-primary">Start Module →</a>
+                        
+                        {% if module.external_url %}
+                            <a href="{{ module.external_url }}" target="_blank" class="module-link module-link-external">External Course ↗</a>
+                        {% endif %}
+                        
+                        {% if module.github_repo %}
+                            <a href="{{ module.github_repo }}" target="_blank" class="module-link module-link-github">GitHub Repo ↗</a>
+                        {% endif %}
+                    </div>
+                    
+                    {% if module.materials %}
+                        <div class="module-materials">
+                            <h4>Additional Materials:</h4>
+                            <ul>
+                                {% for material in module.materials %}
+                                    <li><a href="{{ material.url }}" target="_blank">{{ material.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
