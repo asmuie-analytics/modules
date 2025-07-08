@@ -13,9 +13,11 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1200px; /* A standard max-width for comfortable reading */
+    margin-left: auto;   /* These two lines center the container */
+    margin-right: auto;
+    padding-left: 1.5rem;  /* Adds space on the left (24px) */
+    padding-right: 1.5rem; /* Adds space on the right (24px) */
 }
 
 /* Header Styles */
