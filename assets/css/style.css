@@ -236,22 +236,3 @@ h1 {
     }
 }
 
-/*
-Add this CSS to your main stylesheet to style the clickable module cards.
-*/
-.module-item {
-  display: block; /* Make the link fill its container */
-  color: inherit; /* Use the parent's text color */
-  text-decoration: none; /* Remove the default underline */
-  border: 1px solid #e0e0e0; /* Example border */
-  padding: 1rem;
-  border-radius: 8px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-/* Add a hover effect for better user experience */
-.module-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  color: inherit; /* Ensure text color doesn't change on hover */
-}
